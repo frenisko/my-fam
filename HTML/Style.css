@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(222, 222, 222);
+}
+a {
+    color: rgb(110, 113, 117);
+    transition: 0.5s;
+    font-size: 32px;
+    margin: 12px;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    right: 200px;
+    font-size: 30px;
+
+}
+a:hover{
+    color: rgb(179, 182, 184);
+    transition: 0.5s;
+}
+a:active{
+    color: rgb(217, 176, 13);
+    transition: 0.2s;
+}
+section{
+    font-family: fantasy;
+    background-color: rgb(37, 33, 33);
+    text-align: right;
+    font-size: 70px;
+    border-radius: 15px;
+    position: fixed;
+    top: 0px;
+    width: 1470px;
+    right: 0px;
+    left: 1px;
+} 
+#img-p{
+    position: relative;
+    right: 825px; 
+    top: -20px;
+    font-size: 20px;
+    color: rgb(110, 113, 117);
+
+}
+#img1{
+    width: 70px; 
+    position: relative;
+    right: 970px;
+    top: 7px;
+}
+.img-a{
+    width: 40px;
+}
+#myfam{
+    position: relative;
+    top: 50px;
+}
+.myfam-h{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(55, 55, 55);
+    position: relative;
+    top:10px;
+    font-family: cursive;
+}
+#mysis1{
+    width: 725px;
+    background-color: rgb(143, 143, 143);
+    right: 5px;
+    height: 500px;
+}
+#mysis{
+    width: 730px;
+    position: relative;
+    left: 730px;
+    top: -524.5px;
+    background-color: rgb(211, 167, 5);
+    height: 500px;
+
+}
+.my-h{
+    font-family: cursive;
+    font-size: 30px ;
+    text-align: center;
+    color: rgb(55, 55, 55);
+}
+#mydad{
+    width: 725px;
+    right: 5px;
+    height: 500px;
+    background-color: rgb(211, 167, 5);
+    position: relative;
+    top: -543px;
+    left: 0;
+}
+#mymom{
+    width: 730px;
+    position: relative;
+    left: 730px;
+    top: -1068px;
+    height: 500px;
+    background-color: rgb(143, 143, 143);
+
+}
+.myimg{
+    width: 200px;
+    position: relative;
+    left: 20px;
+}
+.mys{
+    width: 300px;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+li{
+    font-family: cursive;
+    font-size: 30px ;
+    color: rgb(55, 55, 55);
+}
+#mysis1-ul{
+    position: relative;
+    left: 230px;
+    top: -200px;
+}
+#mysis-ul{
+    position: relative;
+    left: 315px;
+    top: -150px;
+}
+#mydad-ul{
+    position: relative;
+    left: 230px;
+    top: -300px;
+}
+#mymom-ul{
+    position: relative;
+    left: 315px;
+    top: -150px;
+}
+@media screen and (max-width: 400px) {
+    #mydad{
+        width: 647px;
+        right: 5px;
+        height: 500px;
+        background-color: rgb(211, 167, 5);
+        position: relative;
+        top: -545.5px;
+        left: 0;
+    }
+    #mymom{
+        width: 650px;
+        position: relative;
+        left: 650px;
+        top: -1070px;
+        height: 500px;
+        background-color: rgb(143, 143, 143);
+    }
+    #mysis1{
+        width: 647px;
+        background-color: rgb(143, 143, 143);
+        right: 5px;
+        height: 500px;
+    }
+    #mysis{
+        width: 650px;
+        position: relative;
+        left: 650px;
+        top: -524.5px;
+        background-color: rgb(211, 167, 5);
+        height: 500px;
+    
+    }
+}
